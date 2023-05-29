@@ -129,3 +129,8 @@ var ifr = document.getElementById("JotFormIFrame-231276144472656");
        window.onload = function() {
             $('#myModal').modal('show');
         };
+//whatsapp-button
+     function changeColor() {
+      var button = document.getElementById('whatsapp-button');
+      button.style.backgroundColor = '#ffc800';
+    }
