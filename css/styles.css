@@ -11361,9 +11361,7 @@ section#contact form#contactForm :-ms-input-placeholder {
                   transition: background-color 0.3s;
                   
   }
-   #whatsapp-button:hover, #whatsapp-button:focus {
-      background-color: orange;
-    }
+ 
 
  @media screen and (max-width: 768px){
      .carousel-item >img{
