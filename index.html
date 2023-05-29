@@ -303,12 +303,21 @@
 </div>
 
 <!-- botao flutuante-->
-     <a href="tel:199996602550" class="botao-flutuante">
+     <a href="tel:19999750770" class="botao-flutuante">
             <i class="bi bi-telephone-outbound"></i>
             </a>
-    <a href="https://api.whatsapp.com/send?phone=19-9996602550" id="whatsapp-button" class="botao-flutuante" target="_blank">
-            <i class="bi bi-whatsapp"  class="whatsapp-button" onmouseover="changeColor()" ontouchstart="changeColor()"></i>
-            </a>
+    <!--botao-flutuante-whatsapp-->
+  <a style="bottom: 90px;" href="https://api.whatsapp.com/send?phone=19999750770" target="_blank" class="botao-flutuante">
+  <i class="bi bi-whatsapp"></i>
+</a>
+<script>
+  $(document).ready(function() {
+  $('.whatsapp-button').on('click', function(e) {
+    e.preventDefault();
+    window.location.href = $(this).attr('href');
+  });
+});
+</script>
 
        
         
@@ -340,6 +349,7 @@
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         <!--modal/carousel-->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script><!--janela modal-->
